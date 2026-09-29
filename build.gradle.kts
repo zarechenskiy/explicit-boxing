@@ -20,8 +20,8 @@ kotlin {
 val testKotlinCompiler: Configuration by configurations.creating
 
 dependencies {
-    implementation("org.ow2.asm:asm:9.9.1")
-    implementation("org.ow2.asm:asm-tree:9.9.1")
+    implementation("org.ow2.asm:asm:9.10.1")
+    implementation("org.ow2.asm:asm-tree:9.10.1")
 
     testImplementation("junit:junit:4.13.2")
     testKotlinCompiler("org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20")
